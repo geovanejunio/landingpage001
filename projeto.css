@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*main-login e pra linkar a parte do div do meu html como se fose o body da minha pagina de login*/
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #261447;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*left-login  seria a parte da esquerda do meu login */
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+/*aqui seria a cor do h1 do meu left login*/
+.left-login > h1{
+    color: black;
+}
+/*essa e a parte da direita do meu login*/
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding: 30px 35px;
+    background: #FF3864;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px black;
+
+
+}
+.card-login > h1 {
+    color: #E9F1F7;
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 13px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #E9F1F7;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #201b2c;
+    outline: none;
+    box-sizing: border-box;
+
+
+}
+.textfield > label{
+color: #E9F1F7;
+margin-bottom: 13px;
+
+}
+.textfield > input::placeholder{
+    color: #000010;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #E9F1F7;
+    background:black;
+    cursor: pointer;
+    
+  
+}
+
+.btn-login:hover{
+    background-color: black;
+
+
+}
